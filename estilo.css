@@ -1,0 +1,115 @@
+body{
+    
+    background-color: rgba(43, 226, 89, 0.315);
+}
+#corpo{
+    width: auto;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 2.4rem;
+    background-color: #ffe8f5;
+    height: 75px;
+    margin-top: 0px;
+    /*padding: 10px 5px;*/
+    border-radius: 8%;
+
+}
+
+.logo{
+    width: 120px;
+    height: 75px;
+    border-radius: 8px;
+}
+
+.formulario{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8%;
+    width: 400px;
+    height: 400px;
+    background-color: #ffe8f5;
+}
+
+input{
+    padding: 0.8rem 1rem;
+    margin: 0px;
+    text-align: center;
+
+}
+#esqueci{
+    font-size: 0.85rem;
+    
+}
+
+h2{
+    font-family: monospace;
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+
+}
+
+#usuario{
+    width: 60%;
+}
+
+#senha{
+    width: 60%;
+}
+
+button{
+    background: blueviolet;
+    color: #ffe8f5;
+    width: 60%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+   
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+footer p{
+    margin-top: 0px;
+    text-align: center;
+}
+.rodape{
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    gap: 80px;
+    
+    
+}
